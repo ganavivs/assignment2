@@ -5,85 +5,171 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body background="images/sal5.jpg " width="100px" height="500px">
-    <h1>WELCOME TO HOMEPAGE</h1>
+    <marquee><title>Walakie-Talkies</title></marquee>
+    ​<style>
+        html {
+    box-sizing: border-box;
+  }
+        h2{
+          color: rgb(208, 255, 0);
+        }
+        p2{
+          color: aliceblue;
+        }
+        p3{
+          color: aliceblue;
+        }
+  *, *:before, *:after {
+    box-sizing:inherit;
+  }
   
-    <h3><b><i><u>Aim of The Team Walkie talkies</u></i></b></h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br \> 
-        Nulla ratione repellendus quo in velit beatae laudantium maxime minima error ex. <br \>
-        Dolor ullam ducimus, aliquam vero culpa magni vel ad ex?</p><br \><br \>
-        <h4><u>Information About Team Members</u></h4>
-    <table border="5px">
-        <tr>
-            <th>Team Name</th>
-            <th>Member Name</th>
-            <th>Branch</th>
-            <th>USN</th>
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 1px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(243, 239, 239, 0.2);
+  }
+  
+  .container {
+    padding: 0 10px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: rgb(155, 233, 155);
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+        </style>
+</head>
+<body background="images/back1.jpg" width="100px" height="500px" no-repeat;>
+    
+   <center><h2 class="title">WALKIE-TALKIE</h2></center> 
 
-        </tr>
-        <tr>
-            <td>walkie_talkies</td>
-            <td>salman</td>
-            <td>cse</td>
-            <td>1gc15cs052</td>
-        </tr>
-        <tr>
-            <td>walkie_talkies</td>
-            <td>ganavi</td>
-            <td>ece</td>
-            <td>1gc16ec062</td>
-        </tr>
-        <tr>
-            <td>walkie_talkies</td>
-            <td>sameena</td>
-            <td>ece</td>
-            <td>1gc16ec042</td>
-        </tr>
-        <tr>
-            <td>walkie_talkies</td>
-            <td>yasmeen</td>
-            <td>cse</td>
-            <td>1gc16cs082</td>
-        </tr>
-        <tr>
-            <td>walkie_talkies</td>
-            <td>pooja</td>
-            <td>ece</td>
-            <td>1gc16cs082</td>
-        </tr>
-        <tr>
-            <td>walkie_talkies</td>
-            <td>seema</td>
-            <td>cse</td>
-            <td>1gc16cs042</td>
-        </tr>
-        <tr>
-            <td>walkie_talkies</td>
-            <td>vaiz</td>
-            <td>cse</td>
-            <td>1gc16cs412</td>
-        </tr>
-    </table>
-    <br \><br \>
-    <h2><b><u>Candidate Information</u></b></h2>
-    <p>if any students are interested to join then please login to the <u>link</u>(signin) given below</p>
-    <p><u>The Available Cources Are</u></p>
-    <ol>
-        <li>Basic Languages</li>
-        <ul>
-            <li>C language</li>
-            <li>C++ language</li>
-        </ul>
-        <li>Web Design</li>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>php</li>
-        </ul>
-        
-     </ol>
-    <a href="signin.html">signin</a><br \><br \>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/avatar3.png" alt="Ganavi" style="width:100%">
+      <div class="container">
+        <h2>Ganavi VS</h2>
+        <p class="title">Team Lead</p>
+        <p2>Team://Walakie-Talkies</p2>
+        <p3>ganavivs@gmail.com</p3>
+        <p><a href="ganavi.html"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/avatar1.png" alt="Vaiz" style="width:100%">
+      <div class="container">
+        <h2>syed Vaiz</h2>
+        <p class="title">Team Member</p>
+        <p2>Team://Walakie-Talkies</p2>
+        <p3>vaizmehmoodi@gmail.com</p3>
+        <p><a href="syed.html"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/avatar1.png" alt="Salman" style="width:100%">
+      <div class="container">
+        <h2>Salman Dharvesh</h2>
+        <p class="title">Team Member</p>
+        <p2>Team://Walakie-Talkies</p2>
+        <p3>salmansallu@gmail.com</p3>
+        <p><a href="salman.html"><button class="button">Contact</button></a></p>
+      </div>
+      </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="images/avatar2.png" alt="Seema" style="width:100%">
+            <div class="container">
+              <h2>Semma</h2>
+              <p class="title">Team Member</p>
+              <p2>Team://Walakie-Talkies</p2>
+              <p3>seema@yahoo.com</p3>
+              <p><a href="seema.html"><button class="button">Contact</button></a></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="images/avatar2.png" alt="Sameena" style="width:100%">
+            <div class="container">
+              <h2>sameena</h2>
+              <p class="title">Team Member</p>
+              <p2>Team://Walakie-Talkies</p2>
+              <p3>sameena@gmail.com</p3>
+              <p><a href="sameena.html"><button class="button">Contact</button></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="images/avatar3.png" alt="pooja" style="width:100%">
+            <div class="container">
+              <h2>Pooja</h2>
+              <p class="title">Team Member</p>
+              <p2>Team://Walakie-Talkies</p2>
+              <p3>pooja@yahoo.com</p3>
+              <p><a href="pooja.html"><button class="button">Contact</button></a></p>
+            </div>
+            </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                  <img src="images/avatar2.png" alt="Afreen" style="width:100%">
+                  <div class="container">
+                    <h2>Afreen</h2>
+                    <p class="title">Team Member</p>
+                    <p2>Team://Walakie-Talkies</p2>
+                    <p3>afreen@yahoo.com</p3>
+                    <p><a href="afreen.html"><button class="button">Contact</button></a></p>
+                  </div>
+                </div>
+              </div>
+            
+    </div>
+  </div>
+</div>
 </body>
 </html>
